@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-color:#222;
+    background: url(image/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    backdrop-filter: saturate(100%) contrast(110%);
+}
+.divTop{
+    display:flex;
+    justify-content:space-between;
+    width: 100%;
+    margin-top: 45px;
+}
+.name{
+    text-align: center;
+    color:white;
+    width:160px;
+    height:35px;
+    margin-right: 25px;
+}
+#svg1{
+    margin-left: 92px;
+}
+.textos{
+    margin-left: 82px;
+    margin-top: 23px;
+}
+.text{
+    font-size: 70px;
+}
+.p1{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.p2{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.footer{
+    position: relative;
+    margin-bottom: 1px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end
+}
+#insta{
+    margin: 0 10px 0 0;
+}
+#link{
+    margin: 0 10px 0 10px;
+}
+#git{
+    margin: 0 0 0 10px;
+}
+#nadanada{
+    position: absolute;
+    width: 564px;
+    height: 100%;
+    background: rgba(39, 39, 39, 0.8);
+    backdrop-filter: blur(100px);
+    overflow-x: hidden;
+    width: 0;
+    transition: 1s;
+}
+#nada{
+    
+}
+/* .imglist2{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 17.04%;
+    right: 77.41%;
+    top: 9.03%;
+    bottom: 86.81%;
+    background: #FFFFFF;
+}
+.name2{
+    // Gustavo S.
+    position: absolute;
+    width: 170px;
+    height: 44px;
+    left: calc(50% - 170px/2 + 530px);
+    top: calc(50% - 44px/2 - 328px);
+    margin-right: 6px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 80px;
+    // identical to box height
+    color: #FFFFFF;
+} */
