@@ -17,6 +17,7 @@ body{
     background-size: cover;
     background-position:top top;
     background-image: url("image/background.jpg");
+    backdrop-filter: contrast(110%) saturate(130%);
 }
 .divTop{
     display:flex;
@@ -41,7 +42,7 @@ body{
     left: 0%;
     width: 590px;
     height: 100%;
-    background-color:rgba(12,12,12,0.5);
+    background-color:rgba(12,12,12,0.7);
 }
 .textos{
     z-index: 100;
