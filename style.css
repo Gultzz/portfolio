@@ -9,16 +9,14 @@
     text-decoration: none;
 }
 body{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    background-color:#222;
-    background: url(image/background.jpg);
-    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #121212;
     background-repeat: no-repeat;
-    backdrop-filter: saturate(100%) contrast(110%);
+    background-size: cover;
+    background-position:top top;
+    background-image: url("image/background.jpg");
 }
 .divTop{
     display:flex;
@@ -36,7 +34,17 @@ body{
 #svg1{
     margin-left: 92px;
 }
+.fundinho{
+    z-index: -1;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 590px;
+    height: 100%;
+    background-color:rgba(12,12,12,0.5);
+}
 .textos{
+    z-index: 100;
     margin-left: 82px;
     margin-top: 23px;
 }
@@ -74,7 +82,7 @@ body{
     overflow-x: hidden;
     width: 0;
     height:100%;
-    transition: 0.7s;
+    transition: 1s;
 }
 #nada3{
     position: absolute;
@@ -85,28 +93,28 @@ body{
     align-items: center;
     text-align: center;
     position: absolute;
-    left: 240px;
+    left: 248px;
     top: 160px;
 }
 .sobre{
     align-items: center;
     text-align: center;
     position: absolute;
-    left: 235px;
+    left: 244px;
     top: 250px;
 }
 .contato{
     align-items: center;
     text-align: center;
     position: absolute;
-    left: 223px;
+    left: 230px;
     top: 340px;
 }
 .curriculos{
     align-items: center;
     text-align: center;
     position: absolute;
-    left: 217px;
+    left: 223px;
     top: 430px;
 }
 /* .imglist2{
